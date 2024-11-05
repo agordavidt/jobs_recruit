@@ -1,0 +1,403 @@
+[
+    {
+      "question": "In digital logic design, what is the primary advantage of using a synchronous design over an asynchronous design?",
+      "A": "Reduced power consumption",
+      "B": "Simplified timing analysis",
+      "C": "Lower cost of components",
+      "D": "Faster overall speed",
+      "answer": "B"
+    },
+    {
+      "question": "In VLSI design, what is the purpose of using a DRC (Design Rule Check)?",
+      "A": "To optimize logic gate placement",
+      "B": "To verify that the layout meets manufacturing requirements",
+      "C": "To minimize propagation delay",
+      "D": "To adjust power distribution",
+      "answer": "B"
+    },
+    {
+      "question": "Which technology is commonly used to mitigate crosstalk on high-frequency PCB designs?",
+      "A": "Shielded twisted pair wiring",
+      "B": "Ground planes and controlled impedance",
+      "C": "Differential signaling",
+      "D": "Higher copper thickness",
+      "answer": "B"
+    },
+    {
+      "question": "In a MOSFET, what is the function of the gate oxide layer?",
+      "A": "To connect the drain and source",
+      "B": "To amplify the input signal",
+      "C": "To insulate the gate from the substrate",
+      "D": "To increase the gate capacitance",
+      "answer": "C"
+    },
+    {
+      "question": "What is the primary reason for choosing a CMOS over TTL for IC design?",
+      "A": "Higher power consumption",
+      "B": "Faster switching speed",
+      "C": "Better noise immunity",
+      "D": "Higher input impedance",
+      "answer": "C"
+    },
+    {
+      "question": "What is the primary purpose of a bypass capacitor on a PCB?",
+      "A": "To provide isolation from electromagnetic interference",
+      "B": "To stabilize the voltage supply by filtering out noise",
+      "C": "To increase the signal strength",
+      "D": "To connect adjacent pins",
+      "answer": "B"
+    },
+    {
+      "question": "Which layer of an embedded system stack is responsible for interfacing directly with the hardware?",
+      "A": "Application layer",
+      "B": "Middleware",
+      "C": "Device driver layer",
+      "D": "Network layer",
+      "answer": "C"
+    },
+    {
+      "question": "In FPGA design, what does a Look-Up Table (LUT) represent?",
+      "A": "A small memory that stores output values based on input combinations",
+      "B": "A table that defines connection patterns for gates",
+      "C": "A cache for faster data processing",
+      "D": "A storage for program instructions",
+      "answer": "A"
+    },
+    {
+      "question": "What is the purpose of decoupling capacitors in a PCB design?",
+      "A": "To act as filters for high-frequency noise",
+      "B": "To provide additional storage for the main power supply",
+      "C": "To connect logic gates",
+      "D": "To act as fuses",
+      "answer": "A"
+    },
+    {
+      "question": "In a microcontroller, what is the purpose of a watchdog timer?",
+      "A": "To reduce power consumption during idle times",
+      "B": "To reset the system in case of software malfunction",
+      "C": "To improve clock frequency stability",
+      "D": "To generate interrupts periodically",
+      "answer": "B"
+    },
+    {
+      "question": "What is the maximum theoretical addressable memory size for a 64-bit processor?",
+      "A": "16 GB",
+      "B": "4 GB",
+      "C": "1 TB",
+      "D": "16 EB",
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following is an advantage of using SRAM over DRAM in cache memory?",
+      "A": "Lower cost per bit",
+      "B": "Higher speed",
+      "C": "Lower power consumption",
+      "D": "Higher storage capacity",
+      "answer": "B"
+    },
+    {
+      "question": "What does the term 'setup time' refer to in flip-flop design?",
+      "A": "Minimum time for data to be stable before the clock edge",
+      "B": "Time required for a clock signal to stabilize",
+      "C": "Maximum delay allowed for data propagation",
+      "D": "Time required to transition from high to low",
+      "answer": "A"
+    },
+    {
+      "question": "In terms of signal integrity, what is an eye diagram used for?",
+      "A": "Measuring signal delay",
+      "B": "Analyzing bit error rate",
+      "C": "Visualizing timing jitter and noise margins",
+      "D": "Testing clock signal stability",
+      "answer": "C"
+    },
+    {
+      "question": "What is the main benefit of using LVDS (Low Voltage Differential Signaling) in high-speed data transmission?",
+      "A": "Reduced power consumption at lower frequencies",
+      "B": "Better immunity to electromagnetic interference",
+      "C": "Increased tolerance to voltage fluctuations",
+      "D": "Lower circuit complexity",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an important consideration for EMI (Electromagnetic Interference) reduction in PCB design?",
+      "A": "Reduced copper thickness",
+      "B": "Increasing the distance between ground planes",
+      "C": "Minimizing trace lengths",
+      "D": "Using standard IC packages",
+      "answer": "C"
+    },
+    {
+      "question": "In a synchronous digital circuit, what is a common cause of metastability?",
+      "A": "High supply voltage",
+      "B": "Improper clock skew",
+      "C": "Low frequency operation",
+      "D": "Low resistance paths",
+      "answer": "B"
+    },
+    {
+      "question": "What is the main function of the instruction pipeline in a microprocessor?",
+      "A": "To control power distribution",
+      "B": "To increase instruction throughput",
+      "C": "To manage external peripherals",
+      "D": "To optimize memory usage",
+      "answer": "B"
+    },
+    {
+      "question": "In the context of embedded systems, which memory type is typically used for program storage?",
+      "A": "SRAM",
+      "B": "EEPROM",
+      "C": "Flash memory",
+      "D": "ROM",
+      "answer": "C"
+    },
+    {
+      "question": "What does a 'parasitic capacitance' refer to in a PCB trace?",
+      "A": "An intentional capacitor to ground",
+      "B": "The unintentional capacitance due to trace proximity to other conductors",
+      "C": "The capacitance from the trace to the signal ground",
+      "D": "Capacitance added to filter signals",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following accurately describes JTAG in embedded systems?",
+      "A": "A communication protocol for high-speed data transfer",
+      "B": "A hardware debugging interface",
+      "C": "A power management feature",
+      "D": "An integrated timer protocol",
+      "answer": "B"
+    },
+    {
+      "question": "In ARM processors, what is the function of the Thumb instruction set?",
+      "A": "Reduces code size for memory efficiency",
+      "B": "Improves processing power by adding extra registers",
+      "C": "Enhances floating-point calculation speed",
+      "D": "Adds compatibility with x86 architecture",
+      "answer": "A"
+    },
+    {
+      "question": "What does DMA (Direct Memory Access) enable in microcontroller systems?",
+      "A": "Priority access for certain instructions",
+      "B": "Peripheral devices to access system memory independently",
+      "C": "Higher resolution analog-to-digital conversions",
+      "D": "Faster cache access",
+      "answer": "B"
+    },
+    {
+      "question": "In FPGA, what is a 'hard macro'?",
+      "A": "A reusable, pre-synthesized circuit module",
+      "B": "A software macro for complex instructions",
+      "C": "A clocked logic circuit for signal timing",
+      "D": "A physical interconnect layer",
+      "answer": "A"
+    },
+    {
+      "question": "Which signal integrity problem is most associated with high-speed clock distribution in a PCB?",
+      "A": "Inductance",
+      "B": "Impedance mismatching",
+      "C": "Capacitance",
+      "D": "Crosstalk",
+      "answer": "B"
+    },
+    {
+      "question": "Which simulation technique is most commonly used to model and optimize signal integrity in high-speed PCB designs?",
+      "A": "Spice simulations",
+      "B": "Time-domain reflectometry",
+      "C": "Finite Element Analysis",
+      "D": "EMI modeling",
+      "answer": "A"
+    },
+    {
+      "question": "What is the primary role of 'decoupling' capacitors in PCB design?",
+      "A": "To control clock skew",
+      "B": "To reduce power supply noise",
+      "C": "To increase trace inductance",
+      "D": "To add impedance to power lines",
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary challenge in designing high-density interconnect (HDI) PCBs for advanced microprocessors?",
+      "A": "Ensuring sufficient copper thickness",
+      "B": "Managing thermal dissipation and signal integrity",
+      "C": "Reducing component count",
+      "D": "Increasing flexibility in routing",
+      "answer": "B"
+    },
+    {
+      "question": "In RF circuit design, what is a critical reason to use a grounded coplanar waveguide over a microstrip?",
+      "A": "To lower the dielectric constant",
+      "B": "To reduce signal reflections in high-frequency applications",
+      "C": "To simplify the fabrication process",
+      "D": "To reduce the PCB layer count",
+      "answer": "B"
+    },
+    {
+      "question": "In asynchronous designs, which timing issue is most likely to cause data corruption?",
+      "A": "Clock skew",
+      "B": "Metastability",
+      "C": "Voltage spikes",
+      "D": "Excessive load capacitance",
+      "answer": "B"
+    },
+    {
+      "question": "In PCB layout for high-speed digital circuits, why is it essential to use controlled impedance traces?",
+      "A": "To increase signal power",
+      "B": "To reduce electromagnetic interference (EMI)",
+      "C": "To minimize signal reflection and distortion",
+      "D": "To improve trace durability",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of a ‘heat slug’ in a QFN (Quad Flat No-lead) package?",
+      "A": "To prevent electrical shorts",
+      "B": "To provide an attachment point for components",
+      "C": "To dissipate heat away from the IC die",
+      "D": "To enhance signal stability",
+      "answer": "C"
+    },
+    {
+      "question": "In digital signal processing, why is a FIR (Finite Impulse Response) filter often preferred over an IIR (Infinite Impulse Response) filter in embedded applications?",
+      "A": "Lower computational complexity",
+      "B": "Guaranteed stability and linear phase response",
+      "C": "Lower latency",
+      "D": "Higher frequency response",
+      "answer": "B"
+    },
+    {
+      "question": "In a synchronous design, what is the primary cause of hold-time violations?",
+      "A": "Slow clock frequency",
+      "B": "Excessive setup time",
+      "C": "Faster data paths than expected",
+      "D": "Too high a supply voltage",
+      "answer": "C"
+    },
+    {
+      "question": "Which characteristic of GaN (Gallium Nitride) transistors makes them particularly suitable for RF applications?",
+      "A": "High on-resistance",
+      "B": "High breakdown voltage and low capacitance",
+      "C": "High threshold voltage",
+      "D": "Low gain-bandwidth product",
+      "answer": "B"
+    },
+    {
+      "question": "In FPGA design, what does the term ‘timing closure’ refer to?",
+      "A": "Ensuring minimal resource usage in the design",
+      "B": "Achieving all timing constraints to meet design requirements",
+      "C": "Minimizing power consumption in the design",
+      "D": "Finalizing the logic placement and routing",
+      "answer": "B"
+    },
+    {
+      "question": "In microcontroller-based systems, what is the primary purpose of PWM (Pulse Width Modulation)?",
+      "A": "To increase clock speed",
+      "B": "To provide adjustable voltage output for controlling peripherals",
+      "C": "To stabilize the input power",
+      "D": "To enable faster data processing",
+      "answer": "B"
+    },
+    {
+      "question": "What is a primary benefit of using SOI (Silicon-On-Insulator) technology in microprocessor design?",
+      "A": "Increased resistance to noise",
+      "B": "Improved heat dissipation",
+      "C": "Reduced parasitic capacitance, leading to faster switching",
+      "D": "Easier fabrication process",
+      "answer": "C"
+    },
+    {
+      "question": "In DSP applications, what is the primary advantage of using a fixed-point processor over a floating-point processor?",
+      "A": "Higher computational speed",
+      "B": "Increased numerical precision",
+      "C": "Lower memory usage",
+      "D": "Reduced design complexity",
+      "answer": "A"
+    },
+    {
+      "question": "In VLSI, what is 'clock gating' primarily used for?",
+      "A": "Enhancing signal integrity",
+      "B": "Reducing dynamic power consumption",
+      "C": "Controlling parasitic effects",
+      "D": "Increasing clock frequency",
+      "answer": "B"
+    },
+    {
+      "question": "In a microcontroller, what is the function of the 'non-maskable interrupt' (NMI)?",
+      "A": "An interrupt that can be disabled in the system",
+      "B": "An interrupt with a lower priority than regular interrupts",
+      "C": "An interrupt that cannot be ignored or disabled by the CPU",
+      "D": "A special type of software interrupt",
+      "answer": "C"
+    },
+    {
+      "question": "What is the primary reason for using flash memory in embedded systems?",
+      "A": "Low latency",
+      "B": "Volatility",
+      "C": "High-speed data transfer",
+      "D": "Non-volatility, allowing data retention without power",
+      "answer": "D"
+    },
+    {
+      "question": "What is the primary reason for using flash memory in embedded systems?",
+      "A": "Low latency",
+      "B": "Volatility",
+      "C": "High-speed data transfer",
+      "D": "Non-volatility, allowing data retention without power",
+      "answer": "D"
+    },
+    {
+      "question": "In CAN (Controller Area Network) communication, what is the main purpose of using 'bit stuffing'?",
+      "A": "To separate frames in transmission",
+      "B": "To maintain synchronization by adding bits after five consecutive identical bits",
+      "C": "To reduce signal noise in the channel",
+      "D": "To increase overall data transmission rate",
+      "answer": "B"
+    },
+    {
+      "question": "In ARM Cortex-M processors, what does the term 'Thumb-2' refer to?",
+      "A": "An extended register set",
+      "B": "A mixed 16- and 32-bit instruction set for efficient code density",
+      "C": "A high-speed debugging feature",
+      "D": "A power-saving mode",
+      "answer": "B"
+    },
+    {
+      "question": "In an I2C bus system, what is the role of the 'SCL' line?",
+      "A": "Data line",
+      "B": "Clock line to synchronize data transfer",
+      "C": "Power supply line",
+      "D": "Ground line",
+      "answer": "B"
+    },
+    {
+      "question": "In signal processing, why is oversampling often used in ADCs (Analog-to-Digital Converters)?",
+      "A": "To increase resolution by reducing quantization noise",
+      "B": "To decrease conversion speed",
+      "C": "To lower power consumption",
+      "D": "To increase sample rate for lower frequencies",
+      "answer": "A"
+    },
+    {
+      "question": "In FPGA design, which tool is commonly used for placing and routing logic elements?",
+      "A": "VHDL Compiler",
+      "B": "Quartus II",
+      "C": "Verilog Optimizer",
+      "D": "Logic Simulation Tool",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an example of an embedded system using an RTOS (Real-Time Operating System)?",
+      "A": "Personal computer",
+      "B": "Smartphone",
+      "C": "Anti-lock braking system (ABS) in cars",
+      "D": "Cloud server",
+      "answer": "C"
+    },
+    {
+      "question": "In hardware-software co-design, what is the primary advantage of hardware acceleration?",
+      "A": "Reduces overall system cost",
+      "B": "Minimizes the need for memory",
+      "C": "Increases performance by offloading specific tasks to dedicated hardware",
+      "D": "Simplifies software debugging",
+      "answer": "C"
+    }
+  ]
+  

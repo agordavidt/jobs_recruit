@@ -1,0 +1,403 @@
+[
+    {
+      "question": "When conducting a market analysis for a new technical product, which metric is most crucial for forecasting adoption rate?",
+      "A": "Net Promoter Score (NPS)",
+      "B": "Product-Market Fit (PMF)",
+      "C": "Customer Acquisition Cost (CAC)",
+      "D": "Growth Rate of Adjacent Products",
+      "answer": "B"
+    },
+    {
+      "question": "In a B2B SaaS product, what is the primary purpose of implementing product-led growth (PLG) strategies?",
+      "A": "To shift focus from revenue to customer satisfaction",
+      "B": "To increase sales conversion through product experience",
+      "C": "To drive growth solely through outbound sales efforts",
+      "D": "To limit marketing investment and focus on R&D",
+      "answer": "B"
+    },
+    {
+      "question": "When prioritizing features in a roadmap, which framework best helps in balancing user impact with business impact?",
+      "A": "RICE (Reach, Impact, Confidence, Effort)",
+      "B": "SWOT (Strengths, Weaknesses, Opportunities, Threats)",
+      "C": "SMART (Specific, Measurable, Achievable, Relevant, Time-bound)",
+      "D": "PEST (Political, Economic, Social, Technological)",
+      "answer": "A"
+    },
+    {
+      "question": "In a competitive landscape analysis, what is the primary advantage of Porter’s Five Forces model?",
+      "A": "It identifies weaknesses in internal capabilities",
+      "B": "It focuses on specific product features for growth",
+      "C": "It examines market entry barriers and potential threats",
+      "D": "It measures financial performance against competitors",
+      "answer": "C"
+    },
+    {
+      "question": "What is the main purpose of a North Star Metric in product management?",
+      "A": "To drive incremental product improvements",
+      "B": "To provide a short-term measure of team performance",
+      "C": "To establish a single, long-term success indicator",
+      "D": "To track competitor progress",
+      "answer": "C"
+    },
+    {
+      "question": "In Agile, which role is responsible for defining and prioritizing product backlog items?",
+      "A": "Scrum Master",
+      "B": "Product Owner",
+      "C": "Development Team",
+      "D": "Project Manager",
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary purpose of conducting a ‘spike’ in Agile development?",
+      "A": "To increase development velocity",
+      "B": "To reduce technical debt",
+      "C": "To research a complex problem and reduce uncertainty",
+      "D": "To introduce new features quickly",
+      "answer": "C"
+    },
+    {
+      "question": "In Lean Startup methodology, which metric best indicates the ‘validated learning’ phase?",
+      "A": "Return on Investment (ROI)",
+      "B": "Churn Rate",
+      "C": "Customer Feedback Loop",
+      "D": "Revenue Growth Rate",
+      "answer": "C"
+    },
+    {
+      "question": "When working with cross-functional teams, which of the following is most important to ensure alignment and transparency in Agile?",
+      "A": "Sprint length consistency",
+      "B": "Clear and shared sprint goals",
+      "C": "Backlog size reduction",
+      "D": "Increased number of story points per sprint",
+      "answer": "B"
+    },
+    {
+      "question": "In Kanban, what is the main reason for using a Work in Progress (WIP) limit?",
+      "A": "To increase output by focusing on multiple tasks",
+      "B": "To prevent team members from becoming idle",
+      "C": "To maintain a sustainable development pace",
+      "D": "To deliver higher quality by limiting context-switching",
+      "answer": "D"
+    },
+    {
+      "question": "Which metric is critical for understanding user engagement in a SaaS application?",
+      "A": "Monthly Active Users (MAU)",
+      "B": "Lead Conversion Rate",
+      "C": "Revenue per User",
+      "D": "Churn Rate",
+      "answer": "A"
+    },
+    {
+      "question": "For a product manager, what is the primary use of cohort analysis?",
+      "A": "To track sales numbers across different customer segments",
+      "B": "To understand customer retention and lifecycle behavior",
+      "C": "To segment users by geographic location",
+      "D": "To measure only the revenue impact of new features",
+      "answer": "B"
+    },
+    {
+      "question": "In data-driven product management, which metric best captures the 'stickiness' of a product?",
+      "A": "Daily Active Users (DAU)",
+      "B": "DAU/MAU Ratio",
+      "C": "Customer Lifetime Value (CLV)",
+      "D": "Conversion Rate",
+      "answer": "B"
+    },
+    {
+      "question": "What is the main purpose of conducting A/B testing for a product feature?",
+      "A": "To reduce development time for the feature",
+      "B": "To increase the product’s code coverage",
+      "C": "To identify the optimal version by comparing different user responses",
+      "D": "To enhance the UI without tracking metrics",
+      "answer": "C"
+    },
+    {
+      "question": "What type of data model would best support advanced reporting for customer engagement analysis?",
+      "A": "Normalized transactional model",
+      "B": "Star schema in a data warehouse",
+      "C": "Graph database",
+      "D": "JSON-based NoSQL database",
+      "answer": "B"
+    },
+    {
+      "question": "When considering scalability in a microservices architecture, what is a major challenge that Product Managers must account for?",
+      "A": "Monolithic integration",
+      "B": "Database normalization",
+      "C": "Inter-service communication and latency",
+      "D": "Use of static IP addresses",
+      "answer": "C"
+    },
+    {
+      "question": "In cloud-based product development, what is the primary advantage of using Infrastructure as Code (IaC)?",
+      "A": "To automate business logic",
+      "B": "To optimize frontend code quality",
+      "C": "To manage and provision infrastructure consistently",
+      "D": "To improve mobile responsiveness",
+      "answer": "C"
+    },
+    {
+      "question": "When designing a feature that involves real-time data updates, which architecture is most suitable for low latency?",
+      "A": "REST API with polling",
+      "B": "Monolithic server architecture",
+      "C": "WebSockets or push-based architecture",
+      "D": "Batch processing model",
+      "answer": "C"
+    },
+    {
+      "question": "In API versioning, which strategy allows backward compatibility with minimal disruptions for clients?",
+      "A": "Changing all existing endpoints simultaneously",
+      "B": "Using major version numbers in the URL (e.g., /v1/, /v2/)",
+      "C": "Incremental changes without documenting them",
+      "D": "Embedding versioning details in API headers only",
+      "answer": "B"
+    },
+    {
+      "question": "For a Technical Product Manager, what is the main purpose of a Service Level Agreement (SLA) in SaaS products?",
+      "A": "To outline product usage guidelines",
+      "B": "To ensure high availability and reliability metrics for users",
+      "C": "To enable feature requests from customers",
+      "D": "To support internal documentation efforts",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following frameworks best aligns product management with customer-centered design?",
+      "A": "Lean Canvas",
+      "B": "Jobs-to-be-Done (JTBD)",
+      "C": "Agile Scrum",
+      "D": "Six Sigma",
+      "answer": "B"
+    },
+    {
+      "question": "In UX design, what is the primary purpose of conducting a 'card sorting' exercise?",
+      "A": "To improve visual hierarchy on the interface",
+      "B": "To organize information in a way that aligns with user expectations",
+      "C": "To enhance product responsiveness",
+      "D": "To identify technical debt in the system",
+      "answer": "B"
+    },
+    {
+      "question": "When a product is live, which metric best reflects the UX quality?",
+      "A": "Page load time",
+      "B": "Engagement rate",
+      "C": "Customer Satisfaction Score (CSAT)",
+      "D": "Churn rate",
+      "answer": "C"
+    },
+    {
+      "question": "What is a primary reason for implementing a 'voice of the customer' (VoC) program?",
+      "A": "To build a database of user complaints",
+      "B": "To ensure customer feedback continuously informs product decisions",
+      "C": "To track competitor metrics",
+      "D": "To improve server uptime",
+      "answer": "B"
+    },
+    {
+      "question": "When implementing OKRs (Objectives and Key Results) for a product, which aspect is most critical to track the success of the product’s development strategy?",
+      "A": "Number of OKRs per team",
+      "B": "Alignment of Key Results to measurable outcomes",
+      "C": "Frequency of objective changes",
+      "D": "Total budget allocated to each OKR",
+      "answer": "B"
+    },
+    {
+      "question": "In a highly technical product with many stakeholders, what is the most effective way to manage feature requests from different departments?",
+      "A": "Implement a feature freeze until all requests are resolved",
+      "B": "Create a prioritization matrix focusing on business impact and feasibility",
+      "C": "Adopt a first-come, first-served approach",
+      "D": "Outsource feature requests based on workload",
+      "answer": "B"
+    },
+    {
+      "question": "When transitioning a legacy system to microservices, what is the primary risk that product managers should mitigate?",
+      "A": "Data redundancy",
+      "B": "Server cost increase",
+      "C": "Technical debt accumulation and service fragmentation",
+      "D": "Change in user interface design",
+      "answer": "C"
+    },
+    {
+      "question": "What is the primary advantage of using a KPI dashboard in cross-functional technical product management?",
+      "A": "To track developer performance",
+      "B": "To share real-time product metrics and foster alignment",
+      "C": "To monitor internal code quality",
+      "D": "To increase daily stand-up productivity",
+      "answer": "B"
+    },
+    {
+      "question": "Which type of MVP (Minimum Viable Product) is most appropriate when validating product features with minimal engineering resources?",
+      "A": "Concierge MVP",
+      "B": "Full-featured MVP",
+      "C": "Internal MVP",
+      "D": "Rapid iteration MVP",
+      "answer": "A"
+    },
+    {
+      "question": "Which metric is essential for assessing the performance of a machine learning model in a product feature?",
+      "A": "Precision and Recall",
+      "B": "Engagement Rate",
+      "C": "Server Response Time",
+      "D": "Net Promoter Score (NPS)",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a key benefit of implementing automated monitoring for product analytics?",
+      "A": "Ensuring all code is bug-free",
+      "B": "Detecting and analyzing real-time user behavior patterns",
+      "C": "Reducing the time needed for code reviews",
+      "D": "Increasing the load capacity of the server",
+      "answer": "B"
+    },
+    {
+      "question": "When setting up a product analytics stack, which component is most critical for handling high volumes of event data?",
+      "A": "Customer relationship management (CRM) system",
+      "B": "Data pipeline infrastructure",
+      "C": "Web analytics software",
+      "D": "Design wireframing tool",
+      "answer": "B"
+    },
+    {
+      "question": "In A/B testing, which outcome would indicate that a variation significantly outperformed the control?",
+      "A": "A lower confidence interval in variation",
+      "B": "A higher p-value",
+      "C": "A statistically significant p-value below 0.05",
+      "D": "A smaller sample size requirement",
+      "answer": "C"
+    },
+    {
+      "question": "When interpreting churn rate, what is the most actionable metric to accompany it?",
+      "A": "Customer acquisition cost (CAC)",
+      "B": "Customer satisfaction (CSAT) score",
+      "C": "Lifetime value (LTV)",
+      "D": "Monthly active users (MAU)",
+      "answer": "C"
+    },
+    {
+      "question": "Which UX principle is particularly important when designing for users with low digital literacy?",
+      "A": "Maximizing animations and transitions",
+      "B": "Reducing on-screen text and increasing visual cues",
+      "C": "Implementing complex multi-step forms",
+      "D": "Using minimal color contrast",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of conducting usability testing with prototypes?",
+      "A": "To finalize all design elements",
+      "B": "To gather user feedback on interaction flows before development",
+      "C": "To test product scalability",
+      "D": "To increase the product’s load performance",
+      "answer": "B"
+    },
+    {
+      "question": "Which testing method focuses on measuring a product’s usability against user experience standards?",
+      "A": "Automated regression testing",
+      "B": "Benchmark usability testing",
+      "C": "Performance load testing",
+      "D": "Cross-browser testing",
+      "answer": "B"
+    },
+    {
+      "question": "In an A/B test for UI changes, what should the product team measure to evaluate success?",
+      "A": "Increase in product features",
+      "B": "Decrease in response time",
+      "C": "Improvement in user conversion or engagement metrics",
+      "D": "Lower production costs",
+      "answer": "C"
+    },
+    {
+      "question": "What is the primary purpose of journey mapping in product management?",
+      "A": "To create a user interface layout",
+      "B": "To define high-level product requirements",
+      "C": "To visualize the end-to-end user experience and identify pain points",
+      "D": "To test technical feasibility",
+      "answer": "C"
+    },
+    {
+      "question": "Which approach is most effective in managing product feature dependencies across multiple teams?",
+      "A": "Allow each team to follow independent timelines",
+      "B": "Maintain a shared dependency tracker and prioritize synchronization",
+      "C": "Focus on a single team to set timelines for others",
+      "D": "Postpone features that require inter-team work",
+      "answer": "B"
+    },
+    {
+      "question": "In a cross-functional setting, which communication style is best suited for a Technical Product Manager?",
+      "A": "Directive and authoritative",
+      "B": "Collaborative and adaptable",
+      "C": "Highly technical with minimal detail",
+      "D": "Single-channel communication only",
+      "answer": "B"
+    },
+    {
+      "question": "Which tool is most effective for maintaining transparency and visibility across cross-functional project updates?",
+      "A": "Version control software",
+      "B": "Continuous integration tools",
+      "C": "Project management dashboards",
+      "D": "SQL databases",
+      "answer": "C"
+    },
+    {
+      "question": "What is a Technical Product Manager’s primary responsibility during an incident affecting product performance?",
+      "A": "Deploy a hotfix immediately",
+      "B": "Act as a liaison between engineering and stakeholders, ensuring clear communication",
+      "C": "Increase server capacity",
+      "D": "Optimize the database schema",
+      "answer": "B"
+    },
+    {
+      "question": "How should a Technical Product Manager prioritize incoming bugs that impact different user segments?",
+      "A": "Based on the number of affected users and impact on revenue",
+      "B": "By randomly addressing the reported bugs",
+      "C": "By addressing bugs reported most recently",
+      "D": "By prioritizing bugs with the lowest development effort",
+      "answer": "A"
+    },
+    {
+      "question": "When launching in a new market, which analysis helps identify both risks and opportunities from external factors?",
+      "A": "SWOT analysis",
+      "B": "PESTLE analysis",
+      "C": "RACI analysis",
+      "D": "Lean Canvas",
+      "answer": "B"
+    },
+    {
+      "question": "Which customer research method is most effective in identifying unmet needs for innovation?",
+      "A": "Net Promoter Score (NPS) survey",
+      "B": "In-depth user interviews",
+      "C": "Heatmap tracking",
+      "D": "Conversion rate optimization",
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary goal of the Jobs-to-be-Done (JTBD) framework in product management?",
+      "A": "To focus only on product specifications",
+      "B": "To understand the context of how and why users hire products to solve specific needs",
+      "C": "To build feature lists based on competitor products",
+      "D": "To develop only high-fidelity prototypes",
+      "answer": "B"
+    },
+    {
+      "question": "In a SaaS product, what does a high Net Promoter Score (NPS) primarily indicate?",
+      "A": "Low customer satisfaction",
+      "B": "Strong likelihood of customer referrals and loyalty",
+      "C": "Increased customer acquisition costs",
+      "D": "Rapid feature adoption",
+      "answer": "B"
+    },
+    {
+      "question": "Which metric would a Technical Product Manager use to gauge the product’s alignment with evolving customer needs?",
+      "A": "Time to Market",
+      "B": "Feature Adoption Rate",
+      "C": "Development Cycle Time",
+      "D": "Churn Rate",
+      "answer": "B"
+    },
+    {
+      "question": "In product management, which method best identifies potential customer pain points without biased assumptions?",
+      "A": "Usability testing with real users and observing behaviors",
+      "B": "Customer feedback through sales team alone",
+      "C": "Reviewing competitor product features",
+      "D": "Relying only on focus group discussions",
+      "answer": "A"
+    }
+  ]
+  

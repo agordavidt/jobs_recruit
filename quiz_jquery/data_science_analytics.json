@@ -1,0 +1,267 @@
+[
+    {
+      "question": "What is the purpose of L2 regularization in machine learning?",
+      "A": "To minimize the weight values to zero",
+      "B": "To penalize large weight values and prevent overfitting",
+      "C": "To increase the weight values and prevent underfitting",
+      "D": "To reduce the dimensionality of the data",
+      "answer": "B"
+    },
+    {
+      "question": "In ensemble learning, what is the main difference between bagging and boosting?",
+      "A": "Bagging uses sequential models, boosting uses parallel models",
+      "B": "Bagging decreases variance, boosting decreases bias",
+      "C": "Boosting is used for regression, while bagging is for classification",
+      "D": "Bagging improves weak learners, boosting improves strong learners",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following techniques is most effective for handling class imbalance in a dataset?",
+      "A": "Grid search",
+      "B": "Data normalization",
+      "C": "SMOTE (Synthetic Minority Over-sampling Technique)",
+      "D": "Cross-validation",
+      "answer": "C"
+    },
+    {
+      "question": "In a Convolutional Neural Network (CNN), what does the term ‘stride’ refer to?",
+      "A": "The distance between two filters",
+      "B": "The number of layers in the CNN",
+      "C": "The step size taken by the filter during convolution",
+      "D": "The amount of padding around an image",
+      "answer": "C"
+    },
+    {
+      "question": "What is the primary purpose of dropout in a neural network?",
+      "A": "To increase model capacity",
+      "B": "To reduce the number of neurons in each layer",
+      "C": "To reduce overfitting by randomly disabling neurons",
+      "D": "To enhance feature scaling",
+      "answer": "C"
+    },
+    {
+      "question": "In a random forest algorithm, which feature is used to measure the importance of each feature in the model?",
+      "A": "Information gain",
+      "B": "Mean squared error",
+      "C": "Gini impurity",
+      "D": "Out-of-bag error",
+      "answer": "C"
+    },
+    {
+      "question": "When using gradient descent in deep learning, what is the purpose of the learning rate?",
+      "A": "To define the rate of data shuffling",
+      "B": "To control the adjustment of weights in each iteration",
+      "C": "To limit the size of the training dataset",
+      "D": "To control the number of layers in the model",
+      "answer": "B"
+    },
+    {
+      "question": "Which activation function is best suited for output layers in a multi-class classification problem?",
+      "A": "ReLU",
+      "B": "Sigmoid",
+      "C": "Softmax",
+      "D": "Tanh",
+      "answer": "C"
+    },
+    {
+      "question": "In reinforcement learning, what is the purpose of the exploration-exploitation trade-off?",
+      "A": "To balance between memory and computation speed",
+      "B": "To balance learning new information and maximizing rewards",
+      "C": "To minimize feature correlations",
+      "D": "To maintain regularization",
+      "answer": "B"
+    },
+    {
+      "question": "What does the term ‘overfitting’ refer to in a machine learning model?",
+      "A": "When the model performs well on training data but poorly on test data",
+      "B": "When the model has a high bias and low variance",
+      "C": "When the model fails to generalize on training data",
+      "D": "When the model has a high variance and low bias",
+      "answer": "A"
+    },
+    {
+      "question": "In hypothesis testing, what is the meaning of a p-value?",
+      "A": "The probability that the null hypothesis is true",
+      "B": "The probability of observing a result as extreme as the one obtained if the null hypothesis is true",
+      "C": "The likelihood of type II error",
+      "D": "The sample size required for testing",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of a Type I error in hypothesis testing?",
+      "A": "Rejecting the null hypothesis when it is false",
+      "B": "Failing to reject the null hypothesis when it is true",
+      "C": "Rejecting the null hypothesis when it is true",
+      "D": "Failing to reject the null hypothesis when it is false",
+      "answer": "C"
+    },
+    {
+      "question": "In a normal distribution, approximately what percentage of data falls within one standard deviation from the mean?",
+      "A": "95%",
+      "B": "68%",
+      "C": "50%",
+      "D": "99%",
+      "answer": "B"
+    },
+    {
+      "question": "What is the Central Limit Theorem?",
+      "A": "The population mean equals the sample mean",
+      "B": "The distribution of sample means approximates a normal distribution as sample size increases",
+      "C": "The sample standard deviation is equal to the population standard deviation",
+      "D": "The probability of Type I error decreases with larger sample sizes",
+      "answer": "B"
+    },
+    {
+      "question": "In regression analysis, what does the R-squared value represent?",
+      "A": "The total variance in the independent variable",
+      "B": "The amount of variance in the dependent variable explained by the independent variable",
+      "C": "The error rate of the model",
+      "D": "The statistical significance of the coefficients",
+      "answer": "B"
+    },
+    {
+      "question": "Which statistical test is appropriate for comparing means of more than two groups?",
+      "A": "Chi-square test",
+      "B": "T-test",
+      "C": "ANOVA (Analysis of Variance)",
+      "D": "Z-test",
+      "answer": "C"
+    },
+    {
+      "question": "When conducting a two-sample t-test, what assumption is required?",
+      "A": "Samples must be normally distributed with equal variances",
+      "B": "Samples should have different variances",
+      "C": "Data must follow a Poisson distribution",
+      "D": "Samples must be from dependent populations",
+      "answer": "A"
+    },
+    {
+      "question": "What is multicollinearity in regression analysis?",
+      "A": "A strong relationship between independent variables",
+      "B": "Lack of relationship between dependent and independent variables",
+      "C": "Multiple dependent variables influencing each other",
+      "D": "When residuals are normally distributed",
+      "answer": "A"
+    },
+    {
+      "question": "Which distribution is used to model the number of events occurring within a fixed interval?",
+      "A": "Normal distribution",
+      "B": "Exponential distribution",
+      "C": "Poisson distribution",
+      "D": "Binomial distribution",
+      "answer": "C"
+    },
+    {
+      "question": "In time series analysis, which model captures both autoregressive and moving average components?",
+      "A": "ARMA (AutoRegressive Moving Average) model",
+      "B": "Simple Exponential Smoothing",
+      "C": "Seasonal decomposition of time series",
+      "D": "Holt-Winters model",
+      "answer": "A"
+    },
+    {
+      "question": "In Apache Spark, what is a primary difference between RDD and DataFrame?",
+      "A": "RDDs are immutable, DataFrames are mutable",
+      "B": "RDDs have schema, DataFrames do not",
+      "C": "DataFrames have schema, RDDs do not",
+      "D": "DataFrames only support Python, RDDs support multiple languages",
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following data formats is most efficient for distributed storage in big data systems?",
+      "A": "CSV",
+      "B": "JSON",
+      "C": "Parquet",
+      "D": "XML",
+      "answer": "C"
+    },
+    {
+      "question": "In a data pipeline, what is the role of ETL (Extract, Transform, Load) processes?",
+      "A": "To transform the data into a machine learning model",
+      "B": "To extract features for model training",
+      "C": "To prepare raw data for analysis by cleaning and loading it into a database",
+      "D": "To improve data visualization",
+      "answer": "C"
+    },
+    {
+      "question": "In Hadoop, what is the function of HDFS (Hadoop Distributed File System)?",
+      "A": "To process data in real-time",
+      "B": "To store and replicate large files across multiple nodes",
+      "C": "To manage machine learning pipelines",
+      "D": "To optimize database queries",
+      "answer": "B"
+    },
+    {
+      "question": "Which AWS service is primarily used for real-time data streaming and analytics?",
+      "A": "Amazon Redshift",
+      "B": "Amazon Kinesis",
+      "C": "Amazon S3",
+      "D": "Amazon RDS",
+      "answer": "B"
+    },
+    {
+      "question": "In Apache Kafka, what is a ‘consumer group’?",
+      "A": "A set of producers writing data to a topic",
+      "B": "A set of consumers that share a topic’s load",
+      "C": "A set of topics sharing the same partition",
+      "D": "A redundancy mechanism for fault tolerance",
+      "answer": "B"
+    },
+    {
+      "question": "What is the main purpose of data partitioning in distributed systems?",
+      "A": "To reduce data redundancy",
+      "B": "To manage data consistency",
+      "C": "To improve data access performance and scalability",
+      "D": "To simplify data normalization",
+      "answer": "C"
+    },
+    {
+      "question": "In the context of ETL, what does ‘data lineage’ refer to?",
+      "A": "The data’s origin and the transformations it undergoes",
+      "B": "The primary key of each data point",
+      "C": "The process of data extraction",
+      "D": "The pipeline where data resides temporarily",
+      "answer": "A"
+    },
+    {
+      "question": "What is Apache Spark's ‘lazy evaluation’ concept?",
+      "A": "Computations are only triggered upon an action",
+      "B": "Data is stored without applying transformations",
+      "C": "The system pre-computes all transformations",
+      "D": "The data is processed immediately upon receiving",
+      "answer": "A"
+    },
+    {
+      "question": "In cloud computing, what does ‘scaling out’ typically refer to?",
+      "A": "Adding more CPU cores to an existing server",
+      "B": "Increasing storage capacity on a single server",
+      "C": "Adding more servers to handle load",
+      "D": "Increasing network bandwidth for a single server",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of MapReduce in big data processing?",
+      "A": "To distribute processing of large data across multiple nodes",
+      "B": "To store data across different locations",
+      "C": "To normalize data before processing",
+      "D": "To visualize data in a map format",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following best describes a Lambda architecture in data processing?",
+      "A": "An architecture with separate layers for real-time and batch processing",
+      "B": "A storage-only approach",
+      "C": "A structure limited to batch data processing",
+      "D": "A data replication technique",
+      "answer": "A"
+    },
+    {
+      "question": "In data warehousing, what is a ‘fact table’?",
+      "A": "A table that stores dimension data",
+      "B": "A central table that contains business metrics or measurements",
+      "C": "A table that holds metadata about the database schema",
+      "D": "A table with static data only",
+      "answer": "B"
+    }
+  ]
+  

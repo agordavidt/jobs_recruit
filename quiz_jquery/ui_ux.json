@@ -1,0 +1,283 @@
+[
+    {
+      "question": "What is the primary purpose of a usability test?",
+      "A": "To evaluate the aesthetic appeal of a design",
+      "B": "To assess how easy and user-friendly a product is",
+      "C": "To analyze market trends",
+      "D": "To measure the performance of the development team",
+      "answer": "B"
+    },
+    {
+      "question": "In UX design, what does the term \"affordance\" refer to?",
+      "A": "The degree of usability of a design",
+      "B": "The visual cues that suggest how an object should be used",
+      "C": "The color scheme of a user interface",
+      "D": "The technology used in a product",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of a wireframe in the design process?",
+      "A": "To provide a high-fidelity representation of the final product",
+      "B": "To outline the basic structure and layout of a design",
+      "C": "To create detailed visual designs and interactions",
+      "D": "To conduct user testing",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following techniques is most effective for gathering qualitative user feedback?",
+      "A": "A/B testing",
+      "B": "Surveys",
+      "C": "User interviews",
+      "D": "Analytics tracking",
+      "answer": "C"
+    },
+    {
+      "question": "In the context of user experience design, what does \"responsive design\" refer to?",
+      "A": "Design that adapts to the user’s emotions",
+      "B": "Design that changes based on user interactions",
+      "C": "Design that adjusts layout and content based on screen size",
+      "D": "Design that prioritizes speed over usability",
+      "answer": "C"
+    },
+    {
+      "question": "What is a common framework used for designing user personas?",
+      "A": "MoSCoW",
+      "B": "AIDA",
+      "C": "Nielsen's Heuristics",
+      "D": "Empathy mapping",
+      "answer": "D"
+    },
+    {
+      "question": "Which principle states that users should not have to remember information from one part of a dialog to another?",
+      "A": "Recognition rather than recall",
+      "B": "Consistency and standards",
+      "C": "Flexibility and efficiency of use",
+      "D": "Error prevention",
+      "answer": "A"
+    },
+    {
+      "question": "In UX design, what does the term \"journey mapping\" refer to?",
+      "A": "The process of outlining the steps a user takes to accomplish a task",
+      "B": "The evaluation of the visual appeal of a product",
+      "C": "The analysis of user demographics",
+      "D": "The documentation of technical specifications",
+      "answer": "A"
+    },
+    {
+      "question": "What is the main purpose of conducting a heuristic evaluation?",
+      "A": "To create visual designs for a product",
+      "B": "To identify usability issues in a user interface",
+      "C": "To analyze market competition",
+      "D": "To validate technical feasibility",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a key aspect of accessibility in design?",
+      "A": "Aesthetic appeal",
+      "B": "Color contrast",
+      "C": "Interactive elements",
+      "D": "Animation",
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary focus of interaction design (IxD)?",
+      "A": "The overall aesthetic of the product",
+      "B": "The way users interact with a product",
+      "C": "The backend architecture of a system",
+      "D": "The marketing strategy for a product",
+      "answer": "B"
+    },
+    {
+      "question": "Which design tool is commonly used for prototyping user interfaces?",
+      "A": "Sketch",
+      "B": "Photoshop",
+      "C": "Microsoft Word",
+      "D": "Notepad",
+      "answer": "A"
+    },
+    {
+      "question": "What does the term \"affordance\" in design mean?",
+      "A": "The aesthetic quality of an interface",
+      "B": "The properties of an object that suggest its usage",
+      "C": "The emotional response evoked by a design",
+      "D": "The technical specifications of a product",
+      "answer": "B"
+    },
+    {
+      "question": "In user experience design, what does the acronym \"CRUD\" stand for?",
+      "A": "Create, Read, Update, Delete",
+      "B": "Control, Review, Understand, Design",
+      "C": "Construct, Render, Use, Deploy",
+      "D": "Collect, Respond, Utilize, Develop",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following techniques is best for quickly testing a design idea with users?",
+      "A": "Focus groups",
+      "B": "A/B testing",
+      "C": "Low-fidelity prototyping",
+      "D": "Analytics review",
+      "answer": "C"
+    },
+    {
+      "question": "What does \"contextual inquiry\" involve?",
+      "A": "Observing users in their natural environment while they use a product",
+      "B": "Analyzing user demographics",
+      "C": "Evaluating the aesthetic appeal of a product",
+      "D": "Creating user personas",
+      "answer": "A"
+    },
+    {
+      "question": "What is the significance of \"design thinking\" in the design process?",
+      "A": "It focuses solely on aesthetics.",
+      "B": "It promotes a user-centered approach to problem-solving.",
+      "C": "It minimizes user involvement.",
+      "D": "It emphasizes rapid production over user feedback.",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a common method for evaluating the usability of a product?",
+      "A": "User feedback forms",
+      "B": "Eye tracking studies",
+      "C": "Load time analysis",
+      "D": "Social media engagement",
+      "answer": "B"
+    },
+    {
+      "question": "What is the role of color theory in UI/UX design?",
+      "A": "To determine technical specifications",
+      "B": "To create visually appealing interfaces that influence user emotions",
+      "C": "To analyze the performance of a product",
+      "D": "To define market trends",
+      "answer": "B"
+    },
+    {
+      "question": "What is a \"style guide\" in design?",
+      "A": "A document that outlines the technical specifications of a product",
+      "B": "A collection of design standards and guidelines for consistency",
+      "C": "A strategy for marketing products",
+      "D": "A tool for project management",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a key benefit of using design systems in UI/UX design?",
+      "A": "They limit creativity.",
+      "B": "They ensure consistency across products and platforms.",
+      "C": "They increase development time.",
+      "D": "They focus solely on user testing.",
+      "answer": "B"
+    },
+    {
+      "question": "What does the term \"microinteractions\" refer to in design?",
+      "A": "Small design elements that are visually appealing",
+      "B": "The individual interactions within a user interface",
+      "C": "Minor bugs in a design",
+      "D": "The overall layout of a product",
+      "answer": "B"
+    },
+    {
+      "question": "In the context of user experience, what is a \"call to action\" (CTA)?",
+      "A": "A prompt that encourages users to take a specific action",
+      "B": "A visual element that enhances aesthetics",
+      "C": "A warning about potential errors",
+      "D": "A technical specification document",
+      "answer": "A"
+    },
+    {
+      "question": "Which usability principle suggests that a product should minimize user errors?",
+      "A": "Flexibility and efficiency of use",
+      "B": "Error prevention",
+      "C": "Consistency and standards",
+      "D": "Recognition rather than recall",
+      "answer": "B"
+    },
+    {
+      "question": "In a UI design context, what is \"white space\" used for?",
+      "A": "To make elements invisible",
+      "B": "To enhance readability and visual hierarchy",
+      "C": "To clutter the interface with information",
+      "D": "To create animation effects",
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary goal of user research in the design process?",
+      "A": "To improve the aesthetic appeal of a product",
+      "B": "To understand user needs, behaviors, and pain points",
+      "C": "To analyze market competition",
+      "D": "To validate technical feasibility",
+      "answer": "B"
+    },
+    {
+      "question": "Which design method involves creating multiple design solutions to a single problem?",
+      "A": "Rapid prototyping",
+      "B": "Divergent thinking",
+      "C": "Heuristic evaluation",
+      "D": "A/B testing",
+      "answer": "B"
+    },
+    {
+      "question": "What is the difference between low-fidelity and high-fidelity prototypes?",
+      "A": "Low-fidelity prototypes are more detailed than high-fidelity prototypes.",
+      "B": "High-fidelity prototypes are usually more interactive and closely resemble the final product.",
+      "C": "Low-fidelity prototypes are used only for visual design, while high-fidelity prototypes are used for user research.",
+      "D": "Low-fidelity prototypes focus more on functionality, while high-fidelity prototypes focus on aesthetics.",
+      "answer": "B"
+    },
+    {
+      "question": "What is a common tool used to perform A/B testing in UI/UX design?",
+      "A": "Google Optimize",
+      "B": "Figma",
+      "C": "Slack",
+      "D": "Trello",
+      "answer": "A"
+    },
+    {
+      "question": "In UX design, what is the concept of \"user flow\"?",
+      "A": "The sequence of steps a user takes to accomplish a task",
+      "B": "The layout of a website or application",
+      "C": "The overall theme or color scheme of the design",
+      "D": "The visual style of interactive elements",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is an important part of the iterative design process?",
+      "A": "Designing the product only once and launching it immediately",
+      "B": "Constantly collecting feedback and making improvements",
+      "C": "Avoiding changes after the initial design phase",
+      "D": "Minimizing user involvement in the design process",
+      "answer": "B"
+    },
+    {
+      "question": "What does the term \"UI\" stand for in design?",
+      "A": "User Interface",
+      "B": "Universal Interaction",
+      "C": "Uniform Integration",
+      "D": "User Integration",
+      "answer": "A"
+    },
+    {
+      "question": "What is the primary purpose of a user persona?",
+      "A": "To guide user interface design decisions based on the needs of fictional users",
+      "B": "To list the technical specifications of a product",
+      "C": "To provide a visual reference for branding",
+      "D": "To track user performance metrics",
+      "answer": "A"
+    },
+    {
+      "question": "Which term refers to making sure a product can be used by people with varying abilities?",
+      "A": "Responsive design",
+      "B": "Universal design",
+      "C": "Mobile-first design",
+      "D": "Adaptive design",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following best describes \"card sorting\" in UX design?",
+      "A": "A technique for organizing content based on user feedback",
+      "B": "A method for analyzing a product’s visual design",
+      "C": "A tool for measuring user interactions",
+      "D": "A process of testing UI layouts",
+      "answer": "A"
+    }
+  ]
+  

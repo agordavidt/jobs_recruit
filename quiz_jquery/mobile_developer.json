@@ -1,0 +1,251 @@
+[
+    {
+      "question": "Which of the following is the correct way to define an optional in Swift?",
+      "A": "var name: String?",
+      "B": "var name: Optional<String>",
+      "C": "var name: String!",
+      "D": "All of the above",
+      "answer": "D"
+    },
+    {
+      "question": "What does the @objc attribute do in Swift?",
+      "A": "It allows Swift code to be called from Objective-C.",
+      "B": "It marks a method for asynchronous execution.",
+      "C": "It defines a property as private.",
+      "D": "It enables method overloading.",
+      "answer": "A"
+    },
+    {
+      "question": "In Swift, which operator is used for optional binding?",
+      "A": "??",
+      "B": "??=",
+      "C": "if let",
+      "D": "!",
+      "answer": "C"
+    },
+    {
+      "question": "Which protocol is used for a type to support Codable in Swift?",
+      "A": "JSONCodable",
+      "B": "Encodable",
+      "C": "Codable",
+      "D": "Serializable",
+      "answer": "C"
+    },
+    {
+      "question": "How do you define a computed property in Swift?",
+      "A": "var property: Int { return 5 }",
+      "B": "var property: Int = { return 5 }()",
+      "C": "let property: Int = 5",
+      "D": "var property: Int = 5 { didSet { } }",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following statements correctly initializes a closure in Swift?",
+      "A": "let closure = { (x: Int) -> Int in return x * 2 }",
+      "B": "let closure: (Int) -> Int = { x in return x * 2 }",
+      "C": "Both A and B",
+      "D": "let closure = (Int) -> Int { return $0 * 2 }",
+      "answer": "C"
+    },
+    {
+      "question": "What is the primary purpose of the @escaping attribute in Swift?",
+      "A": "To prevent memory leaks.",
+      "B": "To allow a closure to outlive its function scope.",
+      "C": "To make a closure synchronous.",
+      "D": "To enable optional chaining.",
+      "answer": "B"
+    },
+    {
+      "question": "In Swift, what is a struct?",
+      "A": "A reference type.",
+      "B": "A value type that can contain methods and properties.",
+      "C": "A type that can inherit from another type.",
+      "D": "A type used only for collections.",
+      "answer": "B"
+    },
+    {
+      "question": "Which Swift feature allows you to manage memory automatically?",
+      "A": "Reference Counting",
+      "B": "Manual Memory Management",
+      "C": "Garbage Collection",
+      "D": "Static Analysis",
+      "answer": "A"
+    },
+    {
+      "question": "In Swift, how do you create an immutable array?",
+      "A": "var array = [1, 2, 3]",
+      "B": "let array = [1, 2, 3]",
+      "C": "const array = [1, 2, 3]",
+      "D": "immutable var array = [1, 2, 3]",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following keywords is used to define a nullable type in Kotlin?",
+      "A": "?",
+      "B": "!!",
+      "C": "val",
+      "D": "var",
+      "answer": "A"
+    },
+    {
+      "question": "In Kotlin, what does the data class keyword provide?",
+      "A": "Automatic generation of getters and setters.",
+      "B": "HashCode and Equals methods.",
+      "C": "A default toString() implementation.",
+      "D": "All of the above.",
+      "answer": "D"
+    },
+    {
+      "question": "What is the primary use of the lateinit modifier in Kotlin?",
+      "A": "To define a variable that can be initialized later.",
+      "B": "To create an immutable variable.",
+      "C": "To indicate a nullable type.",
+      "D": "To define a constant variable.",
+      "answer": "A"
+    },
+    {
+      "question": "How do you define a function with a default parameter in Kotlin?",
+      "A": "fun myFunction(param: Int = 5) {}",
+      "B": "fun myFunction(param: Int): Int { return 5 }",
+      "C": "fun myFunction(param: Int)? {}",
+      "D": "fun myFunction(param: Int: Int) {}",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a correct way to create a singleton in Kotlin?",
+      "A": "object MySingleton {}",
+      "B": "class MySingleton private constructor() {}",
+      "C": "companion object { }",
+      "D": "val instance = MySingleton()",
+      "answer": "A"
+    },
+    {
+      "question": "What does the apply function do in Kotlin?",
+      "A": "It modifies the properties of an object.",
+      "B": "It allows for method chaining.",
+      "C": "It executes a block of code with the object as the receiver.",
+      "D": "It returns a new instance of the object.",
+      "answer": "C"
+    },
+    {
+      "question": "In Kotlin, how do you handle nullability when accessing a property?",
+      "A": "By using ? for safe calls.",
+      "B": "By using !! for assertions.",
+      "C": "By using if (property != null).",
+      "D": "All of the above.",
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following is true about coroutines in Kotlin?",
+      "A": "They are blocking by default.",
+      "B": "They simplify asynchronous programming.",
+      "C": "They require manual thread management.",
+      "D": "They are not compatible with Java.",
+      "answer": "B"
+    },
+    {
+      "question": "How do you create an extension function in Kotlin?",
+      "A": "fun String.customFunction() { }",
+      "B": "extension fun String.customFunction() { }",
+      "C": "fun customFunction(String) { }",
+      "D": "static fun String.customFunction() { }",
+      "answer": "A"
+    },
+    {
+      "question": "What is the purpose of the sealed class in Kotlin?",
+      "A": "To allow only specific subclasses.",
+      "B": "To create a class that cannot be instantiated.",
+      "C": "To represent a finite set of types.",
+      "D": "Both A and C.",
+      "answer": "D"
+    },
+    {
+      "question": "In Flutter, what is the purpose of the setState() method?",
+      "A": "To rebuild the entire widget tree.",
+      "B": "To trigger a rebuild of the current widget.",
+      "C": "To manage application state globally.",
+      "D": "To initialize widget properties.",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a valid way to create a stateless widget in Flutter?",
+      "A": "class MyWidget extends StatelessWidget { }",
+      "B": "class MyWidget extends StatefulWidget { }",
+      "C": "class MyWidget extends Widget { }",
+      "D": "class MyWidget { }",
+      "answer": "A"
+    },
+    {
+      "question": "How do you navigate to a new route in Flutter?",
+      "A": "Navigator.pushNamed(context, '/newRoute')",
+      "B": "Navigator.navigate(context, '/newRoute')",
+      "C": "Navigator.go(context, '/newRoute')",
+      "D": "Navigator.push(context, MaterialPageRoute(builder: (context) => NewRoute()))",
+      "answer": "D"
+    },
+    {
+      "question": "Which widget is used to create a scrollable list in Flutter?",
+      "A": "ListView",
+      "B": "Column",
+      "C": "Stack",
+      "D": "Row",
+      "answer": "A"
+    },
+    {
+      "question": "In Flutter, what is the purpose of the FutureBuilder widget?",
+      "A": "To handle asynchronous data.",
+      "B": "To create custom animations.",
+      "C": "To manage state for forms.",
+      "D": "To improve performance of lists.",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following statements about Flutter's hot reload feature is true?",
+      "A": "It is only available in debug mode.",
+      "B": "It does not retain the state of the app.",
+      "C": "It recompiles the entire app.",
+      "D": "It requires a restart of the application.",
+      "answer": "A"
+    },
+    {
+      "question": "What is the function of the InheritedWidget in Flutter?",
+      "A": "To provide a mechanism for managing state.",
+      "B": "To create reusable UI components.",
+      "C": "To pass data down the widget tree.",
+      "D": "To implement animations.",
+      "answer": "C"
+    },
+    {
+      "question": "Which method is used to dispose of resources in a Stateful widget?",
+      "A": "dispose()",
+      "B": "remove()",
+      "C": "clear()",
+      "D": "disposeResources()",
+      "answer": "A"
+    },
+    {
+      "question": "In Flutter, what is a Widget?",
+      "A": "A mutable object.",
+      "B": "A component that describes part of the user interface.",
+      "C": "A function that creates UI components.",
+      "D": "A class that manages application state.",
+      "answer": "B"
+    },
+    {
+      "question": "How do you implement a bottom navigation bar in Flutter?",
+      "A": "Using BottomNavigationBar widget.",
+      "B": "Using AppBar widget.",
+      "C": "Using TabBar widget.",
+      "D": "Using BottomSheet widget.",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is true about React Native's Flexbox layout?",
+      "A": "It is used for 3D transformations.",
+      "B": "It is the default layout system.",
+      "C": "It requires the use of absolute positioning.",
+      "D": "It does not support responsive design.",
+      "answer": "B"
+    }
+  ]
+  

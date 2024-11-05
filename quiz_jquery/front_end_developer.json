@@ -1,0 +1,323 @@
+[
+    {
+      "question": "Which of the following is a characteristic of the CSS Flexbox layout model?",
+      "A": "It provides a 2D layout model.",
+      "B": "It is only applicable to block elements.",
+      "C": "It allows for dynamic alignment of elements in a single direction.",
+      "D": "It does not support responsive design.",
+      "answer": "C"
+    },
+    {
+      "question": "What is the primary purpose of the data-* attribute in HTML5?",
+      "A": "To store JavaScript code",
+      "B": "To provide semantic meaning to elements",
+      "C": "To embed multimedia content",
+      "D": "To store custom data on HTML elements",
+      "answer": "D"
+    },
+    {
+      "question": "In React, what is the purpose of the key prop?",
+      "A": "To encrypt data",
+      "B": "To uniquely identify elements in a list for reconciliation",
+      "C": "To define default values for props",
+      "D": "To manage component state",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following methods can be used to optimize a web application's performance?",
+      "A": "Using large images for better quality",
+      "B": "Minifying CSS and JavaScript files",
+      "C": "Disabling caching",
+      "D": "Adding excessive inline styles",
+      "answer": "B"
+    },
+    {
+      "question": "What does the term 'tree shaking' refer to in the context of JavaScript modules?",
+      "A": "Removing unused code from the final bundle",
+      "B": "Rearranging the structure of the DOM",
+      "C": "Merging multiple files into one",
+      "D": "Compiling JavaScript to another language",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following techniques can be used to improve accessibility in web applications?",
+      "A": "Using only images for navigation",
+      "B": "Implementing ARIA roles and properties",
+      "C": "Avoiding semantic HTML",
+      "D": "Using color alone to convey information",
+      "answer": "B"
+    },
+    {
+      "question": "In CSS, what does the calc() function do?",
+      "A": "It performs arithmetic operations on values",
+      "B": "It calculates the total size of an element",
+      "C": "It optimizes the layout for mobile devices",
+      "D": "It generates random numbers for animations",
+      "answer": "A"
+    },
+    {
+      "question": "What is the role of the render() method in React components?",
+      "A": "To create a new instance of a component",
+      "B": "To define how a component should display its content",
+      "C": "To handle component lifecycle events",
+      "D": "To manage state updates",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following statements about CSS Grid Layout is true?",
+      "A": "It can only be used for two-dimensional layouts.",
+      "B": "It does not support media queries.",
+      "C": "It requires JavaScript to function properly.",
+      "D": "It allows for complex grid structures and responsive designs.",
+      "answer": "D"
+    },
+    {
+      "question": "In JavaScript, what does the 'this' keyword refer to in an arrow function?",
+      "A": "It refers to the global object.",
+      "B": "It is undefined.",
+      "C": "It refers to the context in which the function was defined.",
+      "D": "It refers to the function itself.",
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of the useEffect hook in React?",
+      "A": "To manage component state",
+      "B": "To execute side effects in function components",
+      "C": "To render UI elements conditionally",
+      "D": "To handle user input",
+      "answer": "B"
+    },
+    {
+      "question": "In HTML, which attribute is used to specify an alternative text for an image?",
+      "A": "title",
+      "B": "alt",
+      "C": "src",
+      "D": "description",
+      "answer": "B"
+    },
+    {
+      "question": "What does the term 'responsive web design' imply?",
+      "A": "Designing separate websites for different devices",
+      "B": "Using fixed layouts that do not adapt to screen size",
+      "C": "Creating flexible layouts that adapt to different screen sizes and orientations",
+      "D": "Relying solely on media queries for layout adjustments",
+      "answer": "C"
+    },
+    {
+      "question": "In a CSS stylesheet, what does the !important declaration do?",
+      "A": "It overrides all previous declarations for the selected element.",
+      "B": "It is used to apply styles only in specific browsers.",
+      "C": "It increases the specificity of a selector.",
+      "D": "It prevents styles from being applied to the element.",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a common method for managing application state in React?",
+      "A": "Global variables",
+      "B": "Redux or Context API",
+      "C": "Local storage only",
+      "D": "JavaScript objects",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the webpack module bundler?",
+      "A": "To compile CSS files into JavaScript",
+      "B": "To optimize images for web usage",
+      "C": "To bundle JavaScript files and their dependencies into a single file",
+      "D": "To manage database connections",
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following best describes 'Progressive Web Apps' (PWAs)?",
+      "A": "Web applications that require a constant internet connection",
+      "B": "Applications that can be installed on a user's device and work offline",
+      "C": "Static websites with limited functionality",
+      "D": "Applications that only work on mobile devices",
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary purpose of CSS pre-processors like SASS or LESS?",
+      "A": "To convert CSS to JavaScript",
+      "B": "To enable variables, nested rules, and functions in CSS",
+      "C": "To optimize images for faster loading",
+      "D": "To handle HTTP requests in the frontend",
+      "answer": "B"
+    },
+    {
+      "question": "In React, what is the purpose of the useState hook?",
+      "A": "To manage side effects in functional components",
+      "B": "To manage local state in functional components",
+      "C": "To perform asynchronous operations",
+      "D": "To handle component lifecycles",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following JavaScript features allows for asynchronous programming?",
+      "A": "Promises",
+      "B": "Loops",
+      "C": "Conditional statements",
+      "D": "Functions",
+      "answer": "A"
+    },
+    {
+      "question": "What is the purpose of the localStorage API in web development?",
+      "A": "To store files on a user's computer",
+      "B": "To persistently store data in a user's browser",
+      "C": "To manage cookies",
+      "D": "To handle session data only",
+      "answer": "B"
+    },
+    {
+      "question": "Which HTTP status code indicates a successful request?",
+      "A": "404",
+      "B": "500",
+      "C": "200",
+      "D": "301",
+      "answer": "C"
+    },
+    {
+      "question": "What does the defer attribute do in a <script> tag?",
+      "A": "It loads the script before the page content.",
+      "B": "It loads the script after the page content has been parsed.",
+      "C": "It blocks the rendering of the page until the script is loaded.",
+      "D": "It specifies a fallback script if the primary script fails.",
+      "answer": "B"
+    },
+    {
+      "question": "Which CSS property is used to control the layout of grid items?",
+      "A": "grid-template-columns",
+      "B": "grid-area",
+      "C": "flex-grow",
+      "D": "display",
+      "answer": "A"
+    },
+    {
+        "question": "In Angular, what does the term 'two-way data binding' refer to?",
+        "A": "Binding data between multiple components",
+        "B": "Synchronizing data between the model and the view",
+        "C": "A method for optimizing performance",
+        "D": "Binding data only from the model to the view",
+        "answer": "B"
+      },
+      {
+        "question": "What is the purpose of the npm package manager?",
+        "A": "To manage operating system packages",
+        "B": "To compile JavaScript code",
+        "C": "To manage JavaScript libraries and dependencies",
+        "D": "To optimize images for web use",
+        "answer": "C"
+      },
+      {
+        "question": "Which of the following techniques can be used to prevent a webpage from being indexed by search engines?",
+        "A": "Using the nofollow attribute on links",
+        "B": "Using the robots.txt file",
+        "C": "Adding a <meta> tag with noindex",
+        "D": "All of the above",
+        "answer": "D"
+      },
+      {
+        "question": "In JavaScript, what does the event.preventDefault() method do?",
+        "A": "It stops the event from propagating to other elements.",
+        "B": "It prevents the default action of an event from occurring.",
+        "C": "It removes the event listener from an element.",
+        "D": "It changes the event type.",
+        "answer": "B"
+      },
+      {
+        "question": "Which CSS pseudo-class is used to style an element when a user hovers over it?",
+        "A": "Not provided",
+        "B": "Not provided",
+        "C": "hover",
+        "D": "Not provided",
+        "answer": "C"
+      },
+      {
+        "question": "What does the fetch API allow developers to do?",
+        "A": "Handle file uploads",
+        "B": "Make network requests similar to XMLHttpRequest",
+        "C": "Manage browser history",
+        "D": "Interact with local storage",
+        "answer": "B"
+      },
+      {
+        "question": "In CSS, what does the opacity property control?",
+        "A": "The size of an element",
+        "B": "The color of an element",
+        "C": "The transparency of an element",
+        "D": "The position of an element",
+        "answer": "C"
+      },
+      {
+        "question": "What is the primary function of a CSS transition?",
+        "A": "To animate an element's movement",
+        "B": "To change an element's properties over a specified duration",
+        "C": "To set an element's visibility",
+        "D": "To apply filters to images",
+        "answer": "B"
+      },
+      {
+        "question": "In React, what is the purpose of the componentDidMount lifecycle method?",
+        "A": "To update the component's state",
+        "B": "To execute code after the component is added to the DOM",
+        "C": "To manage user input",
+        "D": "To remove the component from the DOM",
+        "answer": "B"
+      },
+      {
+        "question": "What is the primary advantage of using a Single Page Application (SPA)?",
+        "A": "Faster loading times and a more seamless user experience",
+        "B": "Increased server load",
+        "C": "Complex routing",
+        "D": "Requires more server-side rendering",
+        "answer": "A"
+      },
+      {
+        "question": "What is the main difference between == and === in JavaScript?",
+        "A": "== compares values only, while === compares both values and types.",
+        "B": "=== is faster than ==.",
+        "C": "There is no difference; they are interchangeable.",
+        "D": "== allows type coercion, while === does not.",
+        "answer": "A"
+      },
+      {
+        "question": "Which of the following attributes can be used to specify a fallback option for an HTML5 <video> element?",
+        "A": "controls",
+        "B": "src",
+        "C": "fallback",
+        "D": "<source>",
+        "answer": "D"
+      },
+      {
+        "question": "In the context of web design, what does the term 'above the fold' refer to?",
+        "A": "The portion of a webpage that is visible without scrolling",
+        "B": "The bottom section of a webpage",
+        "C": "The area used for ads",
+        "D": "The header of a webpage",
+        "answer": "A"
+      },
+      {
+        "question": "Which of the following is a valid use case for using service workers in web applications?",
+        "A": "To manage server-side rendering",
+        "B": "To create offline-first experiences",
+        "C": "To optimize images on the server",
+        "D": "To handle user authentication",
+        "answer": "B"
+      },
+      {
+        "question": "In Angular, what is the purpose of a service?",
+        "A": "To manage user interface elements",
+        "B": "To handle business logic and data retrieval",
+        "C": "To manage routing",
+        "D": "To define components",
+        "answer": "B"
+      },
+      {
+        "question": "Which of the following best describes the purpose of the window.onload event in JavaScript?",
+        "A": "It executes when the document is fully loaded, including all dependent resources.",
+        "B": "It executes as soon as the DOM is ready.",
+        "C": "It executes when an element is clicked.",
+        "D": "It executes when a user scrolls the page.",
+        "answer": "A"
+      }
+  ]
+  
