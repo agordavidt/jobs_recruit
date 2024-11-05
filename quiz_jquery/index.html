@@ -36,8 +36,9 @@
 
 <body>
     <div class="container mt-5">
-        <h5 class="card-text float-right font-weight-bold text-danger mt-4" id="heading"></h5>
-        <span id="time"></span>
+        <h5 class="card-text float-right font-weight-bold text-danger mt-4" id="heading">
+            <span class="display-4" id="time"></span>
+        </h5>
 
         <!-- ==== First Page (Instructions) ===== -->
         <div class="row d-flex justify-content-center" id="firsthead">
@@ -102,7 +103,7 @@
             function buttonManager() {
                 if (count > 0) {
                     $('#prev').show();
-                    if (count == 29) {
+                    if (count == 2) {
                         $('#next').hide();
                         $('#finish').show();
                     } else {
@@ -128,14 +129,15 @@
             function createResult(data, answers) {
                 marks = 0;
                 data.forEach((question, index) => {
+                    // Compare the answer text (not the index)
                     if (question.answer === answers[index]) {
                         marks += 1;
                     }
                 });
 
-                const totalQuestions = data.length;
-                const percentage = Math.ceil((marks / totalQuestions) * 100);
-                $('#percentage').text(`${percentage}%`);
+                // const totalQuestions = data.length;
+                // const percentage = Math.ceil((marks / totalQuestions) * 100);
+                // $('#percentage').text(`${percentage}%`);
                 $('#marks').text(marks);
                 $('#result').show();
             }
@@ -179,7 +181,8 @@
                     $('.option').click(function() {
                         $(this).addClass('active');
                         $(this).siblings().removeClass('active');
-                        answer[count] = $(this).text();
+                        const selectedAnswerText = $(this).find('span').text(); // Get the selected option text
+                        answer[count] = selectedAnswerText;
 
                         $('#next').click(function() {
                             if (answer[count] === undefined) {
@@ -222,7 +225,7 @@
                         const selected = answer[count];
                         if (selected) {
                             $('.option').each(function() {
-                                if ($(this).text() === selected) {
+                                if ($(this).find('span').text() === selected) {
                                     $(this).addClass('active');
                                 }
                             });
