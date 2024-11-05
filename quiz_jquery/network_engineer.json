@@ -1,0 +1,203 @@
+[
+    {
+      "question": "In BGP, what does the term \"MED\" (Multi-Exit Discriminator) influence?",
+      "A": "Outbound path selection",
+      "B": "Inbound path selection for a neighboring AS",
+      "C": "Route filtering within an AS",
+      "D": "Redistribution of routes within an AS",
+      "answer": "B"
+    },
+    {
+      "question": "Which routing protocol is typically used within an enterprise to support multipath load balancing with a variable number of equal-cost routes?",
+      "A": "OSPF",
+      "B": "BGP",
+      "C": "RIP",
+      "D": "EIGRP",
+      "answer": "D"
+    },
+    {
+      "question": "In MPLS (Multiprotocol Label Switching), which component is responsible for forwarding packets based on labels rather than IP addresses?",
+      "A": "LSR (Label Switch Router)",
+      "B": "LER (Label Edge Router)",
+      "C": "Forwarding Information Base (FIB)",
+      "D": "Route Reflector",
+      "answer": "A"
+    },
+    {
+      "question": "What is the primary purpose of route summarization in networking?",
+      "A": "To increase router memory utilization",
+      "B": "To reduce routing table size and improve efficiency",
+      "C": "To enhance path reliability",
+      "D": "To provide multiple equal-cost paths",
+      "answer": "B"
+    },
+    {
+      "question": "Which command in Cisco IOS shows detailed OSPF neighbor relationships?",
+      "A": "show ip route ospf",
+      "B": "show ip ospf neighbors",
+      "C": "show ip ospf database",
+      "D": "show ip ospf summary",
+      "answer": "B"
+    },
+    {
+      "question": "What does the term “split horizon” prevent in routing?",
+      "A": "Loops caused by routers sending updates about routes learned from other routers in the same network segment",
+      "B": "Packets from taking the shortest path",
+      "C": "Loopback interfaces from advertising their routes",
+      "D": "BGP routers from advertising private routes",
+      "answer": "A"
+    },
+    {
+      "question": "In IPsec, which protocol is responsible for encrypting the data?",
+      "A": "ESP (Encapsulating Security Payload)",
+      "B": "AH (Authentication Header)",
+      "C": "IKE (Internet Key Exchange)",
+      "D": "SSL (Secure Socket Layer)",
+      "answer": "A"
+    },
+    {
+      "question": "What is the main advantage of using EIGRP over OSPF in an enterprise environment?",
+      "A": "EIGRP is standards-based",
+      "B": "EIGRP supports unequal-cost load balancing",
+      "C": "EIGRP has a slower convergence time",
+      "D": "EIGRP uses less router memory",
+      "answer": "B"
+    },
+    {
+      "question": "Which protocol uses 3-way handshake as a part of its operation?",
+      "A": "UDP",
+      "B": "TCP",
+      "C": "ICMP",
+      "D": "ARP",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of Network Address Translation (NAT) in networking?",
+      "A": "To assign IP addresses dynamically",
+      "B": "To map private IP addresses to public IP addresses for internet access",
+      "C": "To encrypt data before transmission",
+      "D": "To filter traffic at the network layer",
+      "answer": "B"
+    },
+    {
+      "question": "Which VPN technology does not require a pre-existing private WAN circuit?",
+      "A": "MPLS",
+      "B": "IPsec VPN",
+      "C": "Frame Relay",
+      "D": "T1 Line",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of STP (Spanning Tree Protocol) in a Layer 2 network?",
+      "A": "To prevent IP conflicts",
+      "B": "To prevent loops in the network topology",
+      "C": "To encrypt data traffic",
+      "D": "To prioritize traffic based on VLAN",
+      "answer": "B"
+    },
+    {
+      "question": "Which protocol is designed for fast convergence and is preferred for larger, scalable networks?",
+      "A": "RIP",
+      "B": "EIGRP",
+      "C": "OSPF",
+      "D": "IGRP",
+      "answer": "C"
+    },
+    {
+      "question": "Which layer of the OSI model does a switch primarily operate in?",
+      "A": "Layer 1 - Physical",
+      "B": "Layer 2 - Data Link",
+      "C": "Layer 3 - Network",
+      "D": "Layer 4 - Transport",
+      "answer": "B"
+    },
+    {
+      "question": "What is a characteristic of IPv6 compared to IPv4?",
+      "A": "IPv6 uses 32-bit addressing",
+      "B": "IPv6 requires NAT",
+      "C": "IPv6 addresses are 128 bits long",
+      "D": "IPv6 uses broadcast addressing",
+      "answer": "C"
+    },
+    {
+      "question": "In HSRP (Hot Standby Router Protocol), what is the primary role of the \"Standby\" router?",
+      "A": "It routes packets for VLANs",
+      "B": "It takes over if the active router fails",
+      "C": "It balances load between routers",
+      "D": "It encrypts router-to-router communication",
+      "answer": "B"
+    },
+    {
+      "question": "Which command is used to configure a static route in Cisco IOS?",
+      "A": "route static add",
+      "B": "ip route",
+      "C": "add route static",
+      "D": "route-config static",
+      "answer": "B"
+    },
+    {
+      "question": "What type of firewall rules are defined by 5-tuple parameters (source IP, destination IP, source port, destination port, protocol)?",
+      "A": "Packet filtering firewall rules",
+      "B": "Stateful firewall rules",
+      "C": "Proxy firewall rules",
+      "D": "Application firewall rules",
+      "answer": "A"
+    },
+    {
+      "question": "In SDN (Software Defined Networking), what does the control plane primarily manage?",
+      "A": "Physical data forwarding",
+      "B": "Security configurations",
+      "C": "Policy-based routing",
+      "D": "Centralized network control and decision making",
+      "answer": "D"
+    },
+    {
+      "question": "Which command displays the IP address configuration on a Windows system?",
+      "A": "ipconfig",
+      "B": "ifconfig",
+      "C": "netstat",
+      "D": "route",
+      "answer": "A"
+    },
+    {
+      "question": "What protocol is typically used to synchronize time across a network?",
+      "A": "SNMP",
+      "B": "NTP",
+      "C": "FTP",
+      "D": "IMAP",
+      "answer": "B"
+    },
+    {
+      "question": "In BGP, what is the purpose of a “route reflector”?",
+      "A": "To reduce the number of iBGP connections in a network",
+      "B": "To filter BGP routes",
+      "C": "To increase redundancy in route advertisements",
+      "D": "To prevent route flapping",
+      "answer": "A"
+    },
+    {
+      "question": "What does the term \"DHCP lease\" refer to?",
+      "A": "The duration a DHCP IP address is assigned to a client",
+      "B": "The size of the DHCP packet",
+      "C": "The list of all IPs assigned by a DHCP server",
+      "D": "The number of hops allowed in DHCP relay",
+      "answer": "A"
+    },
+    {
+      "question": "Which command displays the routing table in Cisco IOS?",
+      "A": "show ip interface brief",
+      "B": "show ip route",
+      "C": "show route-table",
+      "D": "display routing",
+      "answer": "B"
+    },
+    {
+      "question": "What does VTP (VLAN Trunking Protocol) primarily manage on Cisco switches?",
+      "A": "IP routing tables",
+      "B": "VLAN configurations across switches",
+      "C": "QoS policies",
+      "D": "Load balancing across ports",
+      "answer": "B"
+    }
+  ]
+  
