@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>BDIC-Portal</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets --> 
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+    <style>
+        .numberCircle {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #990000;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h5 class="card-text float-right font-weight-bold text-danger mt-4" id="heading"><span id="time"></span></h5>
+
+        <!-- ==== first page =====  -->
+        <div class="row d-flex justify-content-center" id="firsthead">
+            <div class="col-md-8 border p-4">
+                <div class="card-body">
+                    <h5 class="card-text text-center font-weight-bold" id="role">Job Role</h5>
+                    
+                     <!-- ============ Results Page ================  -->
+            <div id="result">
+                <!-- <h3 class="mt-5 display-4">Score <br> <span id="marks text-center"></span></h3>
+                <h3 class="mt-4"><span id="correct-answer">0 </span> Correct out of 20</h3> -->
+                <h3 class="mt-4 text-center">Result <br> <span id="percentage" class="font-weight-bold display-1">0% </span></h3>
+            </div>
+                </div>
+                <hr>
+                <div class="start_page" id="start_page">
+                    <h3 class="text-center">Accessment Instructions</h3>
+                    <p class="text-warning" id="message"></p>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Applicants are not allowed to retake the test.</li>
+                        <li class="list-group-item">Please do not seek external assistance during the test.</li>
+                        <li class="list-group-item">The test will auto-submit when the window is changed.</li>
+                        <li class="list-group-item">Applicants have 40 minutes to complete all questions.</li>
+                    </ol>
+                    <button class="btn btn-success d-flex mx-auto mt-4" id="btn">Start Assessment</button>
+                </div>
+
+                <!-- ========= Quiz Display page ==========  -->
+                 <div id="main">
+                    <div class="card-body">
+                        <h5 class="card-text font-weight-bold"><span id="number"></span>.  <span id="question"></span></h5>
+                    </div>
+                    <div class="col-md-12 p-4" id="options">
+                        <button class="btn btn-block btn-outline-secondary text-left option" id="option1"></button>
+                        <button class="btn btn-block btn-outline-secondary text-left option" id="option2"></button>
+                        <button class="btn btn-block btn-outline-secondary text-left option" id="option3"></button>
+                        <button class="btn btn-block btn-outline-secondary text-left option" id="option4"></button>
+                        <div class="footer p-4">
+                            <button class="btn btn-secondary float-left" id="prev">Previous</button>
+                            <button class="btn btn-secondary float-right" id="next">Next</button>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-primary btn-lag mx-auto" id="finish">Finish</button>
+                    </div>
+                </div>
+
+                 </div>                
+
+           
+        </div>
+    </div>
+
+    <script>
+        
+        let count = 0;
+        let time = 2400;
+        let marks = 0;
+        let answer = [];        
+        let timer;
+
+        // main function
+        $(document).ready(function() {
+            $('#finish').hide();
+            $('#result').hide();
+            buttonManager();
+
+            function buttonManager() {
+                if(count > 0) {
+                    $('#prev').show();
+                    if(count == 19) { 
+                        $('#next').hide();
+                        $('#finish').show();
+                    } else {
+                        $('#next').show();
+                    }
+                } else {
+                    $('#prev').hide();
+                }
+            }
+
+            function addingQuestion(data, i) {
+                $('#question').text(data[i].question); 
+                $('#option1').text(data[i].A);         
+                $('#option2').text(data[i].B);         
+                $('#option3').text(data[i].C);         
+                $('#option4').text(data[i].D);         
+                $('#number').text(Number(i + 1));
+            }
+
+            function createResult(data) {
+                marks = answer.length; 
+                $('#marks').text(marks);
+                $('#correct-answer').text(marks / 30);
+                $('#percentage').text(Math.ceil((marks / data.length) * 100) + "%");
+                $('#result').show();
+            }
+
+            $('#options').hide();
+
+            // Fetch API
+            fetch('questions.json')
+            .then(response => response.json())
+            .then(data => {
+                $('#btn').click(function() {
+                    $('#options').show();
+                    addingQuestion(data, count);
+                    $('#start_page').hide();
+                    $('#prev').hide();
+
+                    timer = setInterval(timerFunction, 1000);
+
+                    // ====== time izzz ==== 
+                    
+                    
+                    
+
+                    if (timerDuration === 120) { // 2 minutes warning
+                        alert("Warning: Only 2 minutes remaining!");
+                    }
+
+                    function timerFunction() {
+                        const minutes = Math.floor(time / 60);
+                        const seconds = time % 80;
+                        $("#time").text(`${minutes}:${seconds < 10 ? "0" : ""}${seconds}`);
+                        // $('#time').text(time);
+                        if (time <= 0) {
+                            createResult(data);
+                            clearInterval(timer);
+                            // clearInterval(timer);
+                            // alert("Out of time");
+                            // createResult(data);
+                            $('#role').hide();
+                            $('#number').hide();
+                            $('#heading').hide();
+                            $('#main').hide();
+                            $('#result').show();
+                        }
+                        // $('#time').addClass('numberCircle');
+                        time--;
+                    }
+                });
+
+                // Select option
+                $('.option').click(function() {
+                    $(this).addClass('active');
+                    $(this).siblings().removeClass('active');
+                    answer[count] = $(this).text(); // Save selected answer
+                    
+                    // Next question
+                    $('#next').click(function() {
+                        if(answer[count] === undefined) {
+                            $('#message').text('Please select at least one option').show();
+                            return;
+                        } else {
+                            count++;
+                            if (count < data.length) {
+                                addingQuestion(data, count);
+                                $('#prev').show();
+                                $('.option').removeClass('active');
+                                buttonManager();
+                            }
+                        }
+                    });
+
+                    // Previous Question
+                    $('#prev').click(function() {
+                        if(count > 0) {
+                            count--;
+                            addingQuestion(data, count);
+                            buttonManager();
+                            selectedAnswer();
+                        }
+                    });
+
+                    // Finish assessment
+                    $('#finish').click(function() {
+                        if (answer[count] === undefined) {
+                            $('#message').text('Please select at least one option').show();
+                            return;  // Exit the function early
+                        } else {
+                            // If an answer is selected, proceed as normal
+                            createResult(data);
+                            clearInterval(timer);
+                            $('#main').hide();
+                            $('#role').hide();
+                            $('#number').hide();
+                    }
+                });
+
+                });
+            });
+        });
+    </script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript --> 
+    <script src="js/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+</html>
