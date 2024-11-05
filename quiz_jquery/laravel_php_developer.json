@@ -1,0 +1,227 @@
+[
+    {
+      "question": "Which of the following methods is used to create a new model instance without persisting it in the database in Laravel?",
+      "A": "Model::create()",
+      "B": "Model::insert()",
+      "C": "new Model()",
+      "D": "Model::make()",
+      "answer": "C"
+    },
+    {
+      "question": "In Laravel, which of the following is the correct way to retrieve soft-deleted records?",
+      "A": "Model::withTrashed()",
+      "B": "Model::onlyTrashed()",
+      "C": "Model::trashed()",
+      "D": "Model::getSoftDeleted()",
+      "answer": "A"
+    },
+    {
+      "question": "What is the correct order of middleware stages in Laravel’s request lifecycle?",
+      "A": "Global, Group, Route, Kernel",
+      "B": "Kernel, Group, Global, Route",
+      "C": "Kernel, Global, Group, Route",
+      "D": "Route, Group, Global, Kernel",
+      "answer": "C"
+    },
+    {
+      "question": "In PHP, which of the following will not throw a fatal error if a non-existent class method is called?",
+      "A": "__call()",
+      "B": "__get()",
+      "C": "__invoke()",
+      "D": "__toString()",
+      "answer": "A"
+    },
+    {
+      "question": "What will be the output of the following PHP code? echo \"10\" + 5;",
+      "A": "\"105\"",
+      "B": "105",
+      "C": "15",
+      "D": "\"15\"",
+      "answer": "C"
+    },
+    {
+      "question": "Which function can you use in PHP to convert special characters to HTML entities?",
+      "A": "htmlentities()",
+      "B": "htmlspecialchars_decode()",
+      "C": "html_entity_decode()",
+      "D": "strip_tags()",
+      "answer": "A"
+    },
+    {
+      "question": "In Laravel, which of the following methods are used to seed database records?",
+      "A": "Seeder::run()",
+      "B": "Seeder::insert()",
+      "C": "DB::seed()",
+      "D": "php artisan db:seed",
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following Eloquent relationship types does not exist in Laravel?",
+      "A": "hasOneThrough",
+      "B": "hasOne",
+      "C": "hasManyThrough",
+      "D": "hasBelongs",
+      "answer": "D"
+    },
+    {
+      "question": "In PHP, which of these functions converts a string to a JSON encoded string?",
+      "A": "json_encode()",
+      "B": "json_decode()",
+      "C": "serialize()",
+      "D": "unserialize()",
+      "answer": "A"
+    },
+    {
+      "question": "Which function in PHP is used to get the current timestamp?",
+      "A": "time()",
+      "B": "now()",
+      "C": "date()",
+      "D": "strtotime()",
+      "answer": "A"
+    },
+    {
+      "question": "Which Laravel command is used to clear the application cache?",
+      "A": "php artisan cache:flush",
+      "B": "php artisan cache:clear",
+      "C": "php artisan cache:reset",
+      "D": "php artisan config:clear",
+      "answer": "B"
+    },
+    {
+      "question": "In Laravel, what does the compact() function do?",
+      "A": "Compresses the data for faster transmission.",
+      "B": "Merges multiple arrays into one.",
+      "C": "Converts variables to an array with their names as keys.",
+      "D": "Generates a smaller version of a large object.",
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is NOT a valid scope method in Laravel?",
+      "A": "scopeActive()",
+      "B": "scopeAvailable()",
+      "C": "scopeWithTrashed()",
+      "D": "scopeWhere()",
+      "answer": "D"
+    },
+    {
+      "question": "How can you retrieve the last inserted ID in a Laravel query?",
+      "A": "DB::lastInsertId()",
+      "B": "DB::getPdo()->lastInsertId()",
+      "C": "Model::lastId()",
+      "D": "Model::id()",
+      "answer": "B"
+    },
+    {
+      "question": "In Laravel, which method is used to define a route with a prefix?",
+      "A": "Route::prefix()",
+      "B": "Route::group()",
+      "C": "Route::filter()",
+      "D": "Route::namespace()",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following correctly describes the $app variable in Laravel's entry point (index.php)?",
+      "A": "It is an instance of the Application class that handles requests and routes.",
+      "B": "It is a global variable that holds the environment configuration.",
+      "C": "It represents the autoloaded configuration manager.",
+      "D": "It is a placeholder for all registered service providers.",
+      "answer": "A"
+    },
+    {
+      "question": "In Laravel, which method can be used to determine if a model instance exists in the database?",
+      "A": "exists()",
+      "B": "findOrFail()",
+      "C": "isPersisted()",
+      "D": "fresh()",
+      "answer": "A"
+    },
+    {
+      "question": "In Laravel, what does the load() method do when used on an Eloquent model?",
+      "A": "Loads all attributes for a model instance.",
+      "B": "Lazy-loads additional relations onto an already loaded model instance.",
+      "C": "Caches the model in memory.",
+      "D": "Instantiates a new model instance from the database.",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is true about the __invoke() magic method in PHP?",
+      "A": "It is called when an object is created.",
+      "B": "It allows an object to be used as a function.",
+      "C": "It is called before object destruction.",
+      "D": "It handles undefined properties.",
+      "answer": "B"
+    },
+    {
+      "question": "In Laravel, what is the primary purpose of the AppServiceProvider?",
+      "A": "To register only middleware.",
+      "B": "To store environment variables.",
+      "C": "To register bindings and perform bootstrapping.",
+      "D": "To handle HTTP requests.",
+      "answer": "C"
+    },
+    {
+      "question": "In PHP, what does the array_reduce() function do?",
+      "A": "Filters elements of an array using a callback function.",
+      "B": "Returns a flattened array.",
+      "C": "Iteratively reduces an array to a single value using a callback.",
+      "D": "Finds the maximum value in an array.",
+      "answer": "C"
+    },
+    {
+      "question": "Which Laravel command is used to optimize class loading by combining multiple files into a single file?",
+      "A": "php artisan optimize",
+      "B": "php artisan config:cache",
+      "C": "php artisan dump-autoload",
+      "D": "php artisan optimize:clear",
+      "answer": "A"
+    },
+    {
+      "question": "In PHP, which function would be best suited to calculate the difference in seconds between two DateTime objects?",
+      "A": "strtotime()",
+      "B": "diff()",
+      "C": "getTimestamp()",
+      "D": "format()",
+      "answer": "B"
+    },
+    {
+      "question": "In Laravel, which of the following statements about service containers is true?",
+      "A": "They are used only for caching.",
+      "B": "They allow dependency injection and binding of dependencies.",
+      "C": "They cannot be overridden once registered.",
+      "D": "They are limited to middleware.",
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the up() method in Laravel migrations?",
+      "A": "To configure settings for a database schema.",
+      "B": "To modify or drop tables.",
+      "C": "To define changes to be applied to the database schema.",
+      "D": "To remove tables from the schema.",
+      "answer": "C"
+    },
+    {
+      "question": "In PHP, which of the following is true about closures?",
+      "A": "They cannot be passed as arguments to other functions.",
+      "B": "They are objects of the Closure class.",
+      "C": "They can access private variables of any object.",
+      "D": "They do not support binding.",
+      "answer": "B"
+    },
+    {
+      "question": "In Laravel, which method is used to define a model event listener?",
+      "A": "observe()",
+      "B": "listen()",
+      "C": "attach()",
+      "D": "event()",
+      "answer": "A"
+    },
+    {
+      "question": "How does the pluck() method in Eloquent collections work?",
+      "A": "Retrieves all keys from an array of models.",
+      "B": "Extracts values for a given key from each model.",
+      "C": "Filters the collection based on a callback.",
+      "D": "Removes duplicate entries from the collection.",
+      "answer": "B"
+    }
+  ]
+  

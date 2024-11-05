@@ -222,5 +222,22 @@
     "C": "Filters the collection based on a callback.",
     "D": "Removes duplicate entries from the collection.",
     "answer": "B"
+  },
+  {
+    "question": "In Laravel, which method is used to define a model event listener?",
+    "A": "observe()",
+    "B": "listen()",
+    "C": "attach()",
+    "D": "event()",
+    "answer": "A"
+  },
+  {
+    "question": "How does the pluck() method in Eloquent collections work?",
+    "A": "Retrieves all keys from an array of models.",
+    "B": "Extracts values for a given key from each model.",
+    "C": "Filters the collection based on a callback.",
+    "D": "Removes duplicate entries from the collection.",
+    "answer": "B"
   }
+
 ]

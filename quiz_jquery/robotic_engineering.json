@@ -1,0 +1,259 @@
+[
+    {
+      "question": "What is the primary purpose of inverse kinematics in robotics?",
+      "A": "To optimize power consumption",
+      "B": "To determine joint angles from end-effector positions",
+      "C": "To simulate robotic motion",
+      "D": "To create 3D models of robots",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following sensors is primarily used for measuring distance in robotic applications?",
+      "A": "Gyroscope",
+      "B": "Accelerometer",
+      "C": "LIDAR",
+      "D": "Magnetometer",
+      "answer": "C"
+    },
+    {
+      "question": "What is the function of PID control in robotics?",
+      "A": "To detect obstacles",
+      "B": "To manage robotic arm speed",
+      "C": "To maintain a desired output by minimizing error",
+      "D": "To calculate kinematics",
+      "answer": "C"
+    },
+    {
+      "question": "Which programming paradigm is most commonly used in robotic control systems?",
+      "A": "Functional programming",
+      "B": "Object-oriented programming",
+      "C": "Procedural programming",
+      "D": "Logic programming",
+      "answer": "B"
+    },
+    {
+      "question": "What does SLAM stand for in the context of robotics?",
+      "A": "Synchronous Localization and Mapping",
+      "B": "Simultaneous Localization and Mapping",
+      "C": "Sequential Learning and Mapping",
+      "D": "Simplified Localization and Mapping",
+      "answer": "B"
+    },
+    {
+      "question": "In the context of robotic grippers, what does 'dexterity' refer to?",
+      "A": "The speed of the gripper",
+      "B": "The number of degrees of freedom",
+      "C": "The weight the gripper can hold",
+      "D": "The ability to perform complex movements",
+      "answer": "D"
+    },
+    {
+      "question": "Which communication protocol is often used in robotic systems for real-time control?",
+      "A": "MQTT",
+      "B": "HTTP",
+      "C": "TCP/IP",
+      "D": "CAN bus",
+      "answer": "D"
+    },
+    {
+      "question": "What is a common challenge when implementing machine learning in robotic systems?",
+      "A": "Increased power consumption",
+      "B": "Limited sensor input",
+      "C": "Difficulty in generalizing from training data to real-world scenarios",
+      "D": "Slow computational speeds",
+      "answer": "C"
+    },
+    {
+      "question": "What type of robot utilizes legged locomotion?",
+      "A": "Wheeled robots",
+      "B": "Humanoid robots",
+      "C": "Flying drones",
+      "D": "Articulated robots",
+      "answer": "B"
+    },
+    {
+      "question": "In robotic vision, what is the primary function of a convolutional neural network (CNN)?",
+      "A": "To detect changes in motion",
+      "B": "To recognize patterns and classify images",
+      "C": "To control robotic arms",
+      "D": "To map environments",
+      "answer": "B"
+    },
+    {
+      "question": "Which component is typically used for storing the program and data in a microcontroller?",
+      "A": "Flash memory",
+      "B": "RAM",
+      "C": "ROM",
+      "D": "Cache",
+      "answer": "A"
+    },
+    {
+      "question": "What is the purpose of using a Kalman filter in robotics?",
+      "A": "To enhance image resolution",
+      "B": "To estimate the state of a dynamic system from noisy measurements",
+      "C": "To optimize motion paths",
+      "D": "To reduce power consumption",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a major challenge in multi-robot systems?",
+      "A": "Ensuring individual robot independence",
+      "B": "Communication and coordination between robots",
+      "C": "Limiting the number of robots used",
+      "D": "Reducing costs of hardware",
+      "answer": "B"
+    },
+    {
+      "question": "In robotic programming, what does ROS stand for?",
+      "A": "Robot Operating System",
+      "B": "Robotic Operational Software",
+      "C": "Robotic Open-source System",
+      "D": "Robot Output Services",
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following algorithms is commonly used for path planning in robotics?",
+      "A": "Genetic Algorithm",
+      "B": "A* Algorithm",
+      "C": "Breadth-First Search",
+      "D": "Linear Regression",
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary function of a robotic actuator?",
+      "A": "To process sensor data",
+      "B": "To control the movement of a robot",
+      "C": "To analyze algorithms",
+      "D": "To communicate with other robots",
+      "answer": "B"
+    },
+    {
+      "question": "What type of robot typically utilizes a gimbal system?",
+      "A": "Flying robots",
+      "B": "Humanoid robots",
+      "C": "Mobile ground robots",
+      "D": "Stationary robots",
+      "answer": "A"
+    },
+    {
+      "question": "In robotic systems, what does the term 'teleoperation' refer to?",
+      "A": "Operating robots autonomously",
+      "B": "Controlling robots remotely",
+      "C": "Programming robots using voice commands",
+      "D": "Self-learning algorithms",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a key aspect of robotic safety standards?",
+      "A": "Increasing speed of operation",
+      "B": "Minimizing operational costs",
+      "C": "Ensuring safe interaction between robots and humans",
+      "D": "Maximizing the range of motion",
+      "answer": "C"
+    },
+    {
+      "question": "What does the term 'haptic feedback' refer to in robotics?",
+      "A": "Visual feedback from sensors",
+      "B": "Tactile sensations provided to the user",
+      "C": "Auditory signals used in navigation",
+      "D": "Temperature sensing",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is NOT a common type of robotic manipulation?",
+      "A": "Grasping",
+      "B": "Pushing",
+      "C": "Lifting",
+      "D": "Hovering",
+      "answer": "D"
+    },
+    {
+      "question": "What is the purpose of the Jacobian matrix in robotic kinematics?",
+      "A": "To compute the inverse kinematics",
+      "B": "To relate joint velocities to end-effector velocities",
+      "C": "To optimize energy consumption",
+      "D": "To enhance sensor accuracy",
+      "answer": "B"
+    },
+    {
+      "question": "Which type of control strategy uses feedback to continuously adjust performance?",
+      "A": "Open-loop control",
+      "B": "Closed-loop control",
+      "C": "Feedforward control",
+      "D": "Adaptive control",
+      "answer": "B"
+    },
+    {
+      "question": "What is the significance of the Denavit-Hartenberg parameters in robotics?",
+      "A": "They define the electrical characteristics of a robot.",
+      "B": "They provide a standardized way to represent the joint and link parameters of robotic arms.",
+      "C": "They optimize the speed of robotic movements.",
+      "D": "They manage the software architecture of robotic systems.",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following tasks can be performed by a robot using computer vision?",
+      "A": "Object detection and classification",
+      "B": "Joint angle computation",
+      "C": "Sensor data filtering",
+      "D": "Path optimization",
+      "answer": "A"
+    },
+    {
+      "question": "In a robotic arm, what is the function of end effectors?",
+      "A": "To control the power supply",
+      "B": "To provide stability",
+      "C": "To interact with the environment",
+      "D": "To analyze the arm's movement",
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a common method for localization in indoor environments?",
+      "A": "GPS",
+      "B": "Wi-Fi triangulation",
+      "C": "LIDAR only",
+      "D": "Optical flow",
+      "answer": "B"
+    },
+    {
+      "question": "What type of algorithm is often used for robot path smoothing?",
+      "A": "Linear Regression",
+      "B": "Kalman Filter",
+      "C": "RANSAC",
+      "D": "Bézier Curve",
+      "answer": "D"
+    },
+    {
+      "question": "In robotic programming, what does the term 'sensing' refer to?",
+      "A": "The ability to manipulate objects",
+      "B": "The process of gathering information about the robot’s environment",
+      "C": "The adjustment of robotic motions",
+      "D": "The ability to calculate inverse kinematics",
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an example of a robot that uses vision-based navigation?",
+      "A": "Autonomous cars",
+      "B": "Industrial robotic arms",
+      "C": "Wheeled robots",
+      "D": "Legged robots",
+      "answer": "A"
+    },
+    {
+      "question": "What type of robot is designed to operate in unstructured environments?",
+      "A": "Industrial robots",
+      "B": "Autonomous mobile robots",
+      "C": "Humanoid robots",
+      "D": "Manipulation robots",
+      "answer": "B"
+    },
+    {
+      "question": "Which type of motion control involves specifying a desired trajectory for the robot to follow?",
+      "A": "Impedance control",
+      "B": "Trajectory control",
+      "C": "Force control",
+      "D": "Velocity control",
+      "answer": "B"
+    }
+  ]
+  
